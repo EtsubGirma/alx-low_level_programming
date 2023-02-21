@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * main - Print _putchar
- * Return: Always 0
+ * main - function to print
+ *
+ * Return: 0
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+	char _putchat[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 't'};
+	unsigned int c;
+
+	for (c = 0; c < sizeof(_putchat); c++)
+	{
+		_putchar(_putchar[c]);
+	}
+_putchar('\n');
+return (0);
 }
