@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 int _putchar(char c);
 int _islower(char c);
 int _isalpha(int c);
@@ -8,7 +9,7 @@ int _isupper(int c);
 int _isdigit(int c);
 int _strlen(char *s);
 void _puts(char *s);
-char *_stropy(char *dest, char *src);har *src);
+char *_stropy(char *dest, char *src);
 int _atoi(char *s);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
