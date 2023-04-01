@@ -13,3 +13,4 @@ char *_strcat(char *dest, char *stc)
 	}
 	dest[length] = '\0';
 	return (dest);
+}
