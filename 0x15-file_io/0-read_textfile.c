@@ -6,6 +6,7 @@
 #include <stdlib.h>
 
 ssize_t read_textfile(const char *filename, size_t letters)
+
 {
 	int fd;
 	ssize_t lenr, lenw;
@@ -34,4 +35,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (lenr != lenw)
 		return (0);
 	return (lenw);
+
 }
