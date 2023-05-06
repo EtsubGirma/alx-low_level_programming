@@ -1,11 +1,10 @@
 #include "main.h"
 int _strlen(char *s);
-int main()
+int l;
+while( l = '/0')
 {
-	char s;
-	int len;
-	s = "My first strlen!";
-    len = _strlen(str);
-    putchar(len);
-    return(0);
+	l++;
+	putchar(l%10,'+0');
+	putchar(l/10,'+0');
+	return(0);
 }
