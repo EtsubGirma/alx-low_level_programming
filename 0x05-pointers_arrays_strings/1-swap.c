@@ -1,8 +1,16 @@
 #include "main.h"
 void swap_int(int *a, int *b);
 {
-	int swap;
-	swap=*a;
-	*a=*b;
-	swap=*b;
+	int s;
+	s = *a;
+	*a = *b;
+	*b = s;
+/*	void swap_int(int *a, int *b)
+{
+	int temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
+}*/
 }
